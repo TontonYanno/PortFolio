@@ -57,12 +57,23 @@ body {
 .cursus .container .box{
     margin: 5px 5px;
     width: 30%;
-    height: 30%;
+    height: 50%;
     border: #000 1px solid;
     border-radius: 2px;
     background-size: cover;
-
 }
+
+.cursus .container .box-1 .title{
+    height: 20%;
+    width: max-content;
+    margin: 0 auto;
+}
+.cursus .container .box-2 .title{
+    height: 20%;
+    width: max-content;
+    margin: 0 auto;
+}
+    
 
 @media screen and (max-width: 500px) {
     .cursus .container  {
