@@ -64,7 +64,7 @@ body {
 }
 
 .cursus .container .box-1 .title{
-    height: 20%;
+    height: 10%;
     width: max-content;
     margin: 0 auto;
 }
@@ -73,9 +73,18 @@ body {
     width: max-content;
     margin: 0 auto;
 }
+.cursus .container .box-2 .about{
+    width: 80%;
+    margin: 0 auto;
+}
     
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+    body, html{
+        display:  flex;
+        flex-direction: column;
+        margin: top 50vh; ;
+    }
     .cursus .container  {
       display: flex;
       flex-direction: column;
@@ -86,6 +95,14 @@ body {
         width: 60%;
         height: 60%;
     }      
+}
+@media screen and (max-width:990px) {
+    .cursus .container .box{
+        width: 60%;
+        height: 80%;
+    }      
+    
+    
 }
 
 
