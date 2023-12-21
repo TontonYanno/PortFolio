@@ -16,7 +16,7 @@ html, body {
 
 body {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     padding: 30px 10px;
@@ -42,6 +42,39 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+/* section.cursus */
+.cursus {
+    width: 100%;
+}
+.cursus .container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.cursus .container .box{
+    margin: 5px 5px;
+    width: 30%;
+    height: 30%;
+    border: #000 1px solid;
+    border-radius: 2px;
+    background-size: cover;
+
+}
+
+@media screen and (max-width: 500px) {
+    .cursus .container  {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .cursus .container .box{
+        width: 60%;
+        height: 60%;
+    }      
 }
 
 
